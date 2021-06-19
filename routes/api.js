@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const apiController = require('../controllers/apiController');
+const apiController = require('../controllers/apicontroller');
 
 router.get('/', apiController.getcpu);
 router.get('/motherboard', apiController.getmotherboard);
